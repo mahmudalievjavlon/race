@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-         
+    GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <title>гонки</title>
+</head>
+<body>
+    <div class="container m-5">
+        <h2 class="text-center">На перегонки</h2>
+        <form class="form w-25 mt-5 d-flex align-items-center mx-auto gap-2" >
+            <label for="space" class="form-label">
+                растаяние
+            </label>
+            <input 
+                    class="form-control"
+                    type="number"
+                    id="space"
+                 />
+            <button class="form-control my-3 btn btn-outline-dark" id="btn">
+                подсчитать
+            </button>
+        </form>
+        <div class="box row">
+            <div class="col">
+                <div class="card text-center p-3">
+                    <img src="" alt="">
+                    <h2 class="card-title">пешеход</h2>
+                    <p class="person-result">n time</p>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card text-center p-3">
+                    <h2 class="card-title">велосипед</h2>
+                    <p class="bicycle-result">n time</p>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card text-center p-3">
+                    <h2 class="card-title">машина</h2>
+                    <p class="car-result">n time</p>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card text-center p-3">
+                    <h2 class="card-title">самолёт</h2>
+                    <p class="plane-result">n time</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="./app.js"></script>
+</body>
+</html>
